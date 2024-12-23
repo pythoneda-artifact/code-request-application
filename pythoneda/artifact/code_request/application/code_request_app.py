@@ -21,7 +21,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 import asyncio
 from dbus_next import BusType
-from pythoneda.shared.application import PythonEDA
+from pythoneda.shared.application import enable, PythonEDA
 from pythoneda.shared.artifact.events.infrastructure.dbus import DbusChangeStaged
 from pythoneda.artifact.code_request.infrastructure.dbus import (
     CodeRequestDbusSignalEmitter,
