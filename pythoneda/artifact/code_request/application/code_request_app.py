@@ -74,11 +74,7 @@ class CodeRequestApp(PythonEDA):
 
 
 if __name__ == "__main__":
-    asyncio.run(
-        CodeRequestApp.main(
-            "pythoneda.artifact.code_request.application.CodeRequestApp"
-        )
-    )
+    asyncio.run(CodeRequestApp.main())
 # vim: syntax=python ts=4 sw=4 sts=4 tw=79 sr et
 # Local Variables:
 # mode: python
